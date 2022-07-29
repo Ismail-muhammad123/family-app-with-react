@@ -11,7 +11,7 @@ export default class Reports extends Component {
     }
     
     componentDidMount() {
-        fetch('http://localhost/work/reports.php')
+        fetch('http://localhost/work/records_reports.php')
         .then((res)=> {
             console.log(res.data);
             return res;

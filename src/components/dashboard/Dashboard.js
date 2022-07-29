@@ -11,7 +11,7 @@ export default class Dashboard extends Component {
 }
 
 componentDidMount() {
-    fetch('http://localhost/work/families.php')
+    fetch('http://localhost/work/list_of_families.php')
     .then((res)=> {
         console.log(res.data);
         return res;
